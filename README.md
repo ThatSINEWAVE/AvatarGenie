@@ -2,7 +2,7 @@
 
 # AvatarGenie
 
-Welcome to AvatarGenie! This is a fun project that allows you to create your unique avatar with ease. You can access the site [here](https://thatsinewave.github.io/AvatarGenie).
+Welcome to AvatarGenie! This is a fun project that allows you to create your unique avatar with ease.
 
 </div>
 
