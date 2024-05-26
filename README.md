@@ -4,6 +4,8 @@
 
 Welcome to AvatarGenie! This is a fun project that allows you to create your unique avatar with ease.
 
+![AvatarGenie](https://github.com/ThatSINEWAVE/AvatarGenie/assets/133239148/96b1bc9a-7cca-4e8d-9203-74a84fcc859a)
+
 </div>
 
 ## Features
