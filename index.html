@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvatarGenie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
+    <link rel="manifest" href="site-data/site.webmanifest">
+  </head>
+  <body>
+    <header>
+      <label class="theme-switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider round"></span>
+      </label>
+    </header>
+    <div class="container">
+      <div id="welcome-box" class="box">
+        <h1>AvatarGenie</h1>
+        <p>Create your unique avatar with ease.</p>
+        <button id="start-button">Generate your avatar</button>
+      </div>
+      <div id="customization-box" class="box hidden">
+        <div class="options">
+          <label for="style">Style:</label>
+          <select id="style">
+            <option value="adventurer">Adventurer</option>
+            <option value="adventurer-neutral">Adventurer Neutral</option>
+            <option value="avataaars">Avataaars</option>
+            <option value="avataaars-neutral">Avataaars Neutral</option>
+            <option value="big-ears">Big Ears</option>
+            <option value="big-ears-neutral">Big Ears Neutral</option>
+            <option value="big-smile">Big Smile</option>
+            <option value="bottts">Bottts</option>
+            <option value="bottts-neutral">Bottts Neutral</option>
+            <option value="croodles">Croodles</option>
+            <option value="croodles-neutral">Croodles Neutral</option>
+            <option value="fun-emoji">Fun Emoji</option>
+            <option value="icons">Icons</option>
+            <option value="identicon">Identicon</option>
+            <option value="initials">Initials</option>
+            <option value="lorelei">Lorelei</option>
+            <option value="lorelei-neutral">Lorelei Neutral</option>
+            <option value="micah">Micah</option>
+            <option value="thumbs">Thumbs</option>
+            <option value="shapes">Shapes</option>
+            <option value="rings">Rings</option>
+            <option value="pixel-art">Pixel Art</option>
+            <option value="pixel-art-neutral">Pixel Art Neutral</option>
+            <option value="personas">Personas</option>
+            <option value="open-peeps">Open Peeps</option>
+            <option value="notionists">Notionists</option>
+            <option value="notionists-neutral">Notionists Neutral</option>
+            <option value="miniavs">Miniavs</option>
+          </select>
+          <label for="seed">Seed:</label>
+          <input type="text" id="seed" placeholder="Enter a seed value">
+          <div class="file-type">
+            <p>File Type:</p>
+            <label>
+              <input type="radio" name="file-type" value="svg" checked> SVG </label>
+            <label>
+              <input type="radio" name="file-type" value="png"> PNG </label>
+            <label>
+              <input type="radio" name="file-type" value="jpg"> JPG </label>
+          </div>
+          <div class="flip-option">
+            <p>Flip Image:</p>
+            <label>
+              <input type="radio" name="flip" value="true"> Yes </label>
+            <label>
+              <input type="radio" name="flip" value="false" checked> No </label>
+          </div>
+          <div class="button-group">
+            <button id="generate-button">Generate</button>
+            <button id="download-button" disabled>Download</button>
+          </div>
+        </div>
+        <div class="avatar-display">
+          <img id="avatar-image" src="placeholder.svg" alt="Avatar">
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="https://discord.com/invite/2nHHHBWNDw" target="_blank">
+        <i class="fab fa-discord"></i>
+      </a>
+      <a href="https://ko-fi.com/thatsinewave" target="_blank">
+        <i class="fas fa-heart"></i>
+      </a>
+      <a href="https://github.com/ThatSINEWAVE/AvatarGenie" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
